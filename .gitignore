@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs
+*.log
+
+# Output images / generated files
+test/certificate_watermark/certificate_watermarked.jpg
+
+# Optional: ignore all generated watermarked files
+# (if you want to keep originals but not watermarked versions)
+test/certificate_watermark/*_watermarked.jpg
+
+# Optional: ignore compiled output or temporary folders
+dist/
+build/
+.tmp/
