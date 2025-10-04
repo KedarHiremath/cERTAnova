@@ -90,11 +90,5 @@ Modern systems like DigiLocker enable users to store certificates digitally, but
 | **Encryption** | AES / RSA Hybrid Encryption |
 | **Wallet Integration** | MetaMask / Web3Auth |
 
----
 
-## 🧑‍💻 Getting Started
 
-### Clone the Repository
-```bash
-git clone https://github.com/yourusername/cERTAnova.git
-cd cERTAnova
