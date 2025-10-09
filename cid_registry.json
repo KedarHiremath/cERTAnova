@@ -1,0 +1,18 @@
+[
+  {
+    "path": "cert1.txt",
+    "cid": "QmT258hhaWgv82gY1hF1tABZ99iYVsYuUs4cSZCBVyLUR8"
+  },
+  {
+    "path": "cert2.txt",
+    "cid": "QmNcHrUBT3grq7eKTSUF6VrahJVqc9woj64EKvEQRUWxpg"
+  },
+  {
+    "path": "cert3.txt",
+    "cid": "QmPEkxZRqG8WdrNJTPqHtocKkE1pJWxnAd4qtwkdSCSxHu"
+  },
+  {
+    "path": "mock_certs",
+    "cid": "QmTyEBQEGq3H3wDfqvBkpNM1FpbfjGYzZoyrdbFz5UnssF"
+  }
+]

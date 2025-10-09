@@ -1,0 +1,24 @@
+{
+  "name": "certanova",
+  "version": "1.0.0",
+  "description": "**cERTAnova** (read as *Certanova*) is a next-generation, blockchain-based certificate authentication and management platform.  \r It acts as a **trust layer for digital documents**, allowing users, authorities, and institutions to issue, store, share, and verify certificates securely — powered by blockchain and decentralized storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KedarHiremath/cERTAnova.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KedarHiremath/cERTAnova/issues"
+  },
+  "homepage": "https://github.com/KedarHiremath/cERTAnova#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ipfs-http-client": "^60.0.1"
+  }
+}
