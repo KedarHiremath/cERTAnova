@@ -1,0 +1,18 @@
+﻿{
+  "name": "certanova-contracts",
+  "version": "1.0.0",
+  "description": "Smart contracts for certificate registry and verification using Hardhat.",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "node scripts/deploy.js",
+    "verify": "node scripts/verify.js"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0"
+  }
+}
