@@ -1,0 +1,31 @@
+{
+  "@context": ["https://www.w3.org/2018/credentials/v1"],
+  "id": "urn:uuid:5f6e7d8c-9b0a-4e1f-8d2c-3b4a5c6d7e8f",
+  "type": ["VerifiableCredential", "PassportCredential"],
+  "issuer": {
+    "id": "did:gov:passport",
+    "name": "Passport Authority"
+  },
+  "issuanceDate": "2024-12-12T11:00:00Z",
+  "expirationDate": "2034-12-11T23:59:59Z",
+  "credentialSubject": {
+    "id": "did:example:traveller001",
+    "passportMasked": "P<IND<<XXXX1234",
+    "passportLast4": "1234",
+    "nameMasked": "A*** S***",
+    "nationality": "IND",
+    "dob": "1990-06-21",
+    "placeOfBirthCommitment": "keccak256(<place-plaintext> || saltp1)"
+  },
+  "metadata": {
+    "schemaId": "PassportCredentialV1",
+    "issuerEmail": "passport@government.example",
+    "issuerPublicKey": "did:gov:passport#key-1",
+    "fileHash": null,
+    "ipfsCID": null,
+    "sensitivity": "PII",
+    "displayLabel": "Passport (masked)",
+    "issuedAt": "2024-12-12T11:00:00Z",
+    "expirationDate": "2034-12-11T23:59:59Z"
+  }
+}

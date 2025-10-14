@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# IPFS local repo (if you have one in project folder)
+.ipfs/
+
+# Hyperledger Fabric wallets / crypto materials
+wallet/
+organizations/
+fabric-samples/test-network/organizations/
+
+# Output / generated files
+User/
+onChainRegistry.json
+
+# VSCode / IDE settings
+.vscode/
+.idea/

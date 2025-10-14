@@ -1,0 +1,7 @@
+npm install
+npm install axios@^1.12.2
+npm install crypto@^1.0.1
+npm install elliptic@^6.6.1
+npm install fs-extra@^11.3.2
+npm install ipfs-http-client@^60.0.1
+npm install js-sha3@^0.9.3

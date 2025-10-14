@@ -1,0 +1,7 @@
+{
+  "type": "EcdsaSecp256k1Signature2019",
+  "created": "2025-10-14T10:46:58.563Z",
+  "proofPurpose": "assertionMethod",
+  "verificationMethod": "did:example:aadhaar#key-1",
+  "jws": "4052282c9b81e6b2ea65c9feedf0a8681d382091fb5352f6f0b75352041398f4"
+}

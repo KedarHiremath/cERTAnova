@@ -1,0 +1,11 @@
+{
+  "credentialID": "A002",
+  "hashedCID": "0x0f0b8aa03027ab8f7bb21a7217e322888c9318d6d7aeccfd36c63bc2d8c3d3a1",
+  "certificateType": "Passport",
+  "issuer": "did:example:passport",
+  "issuerName": "Government of India - Passport Authority",
+  "issuanceTimestamp": "2025-10-14T10:46:58.842Z",
+  "schemaId": "PassportCredentialV1",
+  "sensitivity": "PII",
+  "displayLabel": "Passport (masked)"
+}

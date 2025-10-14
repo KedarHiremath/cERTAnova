@@ -1,0 +1,29 @@
+{
+  "@context": ["https://www.w3.org/2018/credentials/v1"],
+  "id": "urn:uuid:0c1d2e3f-4a5b-6c7d-8e9f-0a1b2c3d4e5f",
+  "type": ["VerifiableCredential", "AadhaarCredential"],
+  "issuer": {
+    "id": "did:gov:uidai",
+    "name": "Unique Identification Authority of India"
+  },
+  "issuanceDate": "2025-08-05T08:00:00Z",
+  "credentialSubject": {
+    "id": "did:example:user003",
+    "aadhaarMasked": "XXXX-XXXX-9012",
+    "aadhaarLast4": "9012",
+    "nameMasked": "M*** A***",
+    "yearOfBirth": "2001",
+    "gender": "Other",
+    "addressCommitment": "keccak256(<address-plaintext> || salt3)"
+  },
+  "metadata": {
+    "schemaId": "AadhaarCredentialV1",
+    "issuerEmail": "helpdesk@uidai.gov.in",
+    "issuerPublicKey": "did:gov:uidai#key-1",
+    "fileHash": null,
+    "ipfsCID": null,
+    "sensitivity": "PII",
+    "displayLabel": "Aadhaar (masked)",
+    "issuedAt": "2025-08-05T08:00:00Z"
+  }
+}

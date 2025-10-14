@@ -1,0 +1,11 @@
+{
+  "credentialID": "A002",
+  "hashedCID": "0xa370934eff7fb6630527ce94fee9f28048b1bc9ac9a596718f5cd70011f577b3",
+  "certificateType": "Aadhaar",
+  "issuer": "did:example:aadhaar",
+  "issuerName": "Government of India - Aadhaar Authority",
+  "issuanceTimestamp": "2025-10-14T10:46:58.562Z",
+  "schemaId": "AadhaarCredentialV1",
+  "sensitivity": "PII",
+  "displayLabel": "Aadhaar (masked)"
+}

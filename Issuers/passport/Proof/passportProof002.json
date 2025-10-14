@@ -1,0 +1,7 @@
+{
+  "type": "EcdsaSecp256k1Signature2019",
+  "created": "2025-10-14T10:46:58.730Z",
+  "proofPurpose": "assertionMethod",
+  "verificationMethod": "did:example:passport#key-1",
+  "jws": "163d618688c097f2b9960adbc6b114fdcc39c3bda1c3f301ca97e5edd006f95c"
+}
